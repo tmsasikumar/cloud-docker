@@ -68,3 +68,6 @@ jobs:
 
       - name: Apply infrastructure and deployment
         run: terraform apply -input=false -auto-approve tfplan
+
+      - name: Clean up
+        run: terraform destroy -input=false -auto-approve
