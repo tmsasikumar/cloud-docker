@@ -1,0 +1,9 @@
+.env
+.git
+.github
+.terraform
+*.tf
+*.tfstate*
+.DS_Store
+find-subnets.sh
+__pycache__
